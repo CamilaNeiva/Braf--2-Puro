@@ -72,6 +72,18 @@ body {
 }
 
 
+@media (min-width: 740px) and (max-width: 980px) {
+	.container {
+		max-width: 720px;
+	}
+}
+
+@media	(max-width: 739px) {
+	.container {
+		max-width: 300px;
+	}
+}
+
 /*FILTRO*/
 
 .filtro {
@@ -145,6 +157,18 @@ body {
 							80px 0 00 currentColor;
 }
 
+@media (min-width: 740px) and (max-width: 980px) {
+	.filtro {
+		width: 220px;
+	}
+}
+
+@media	(max-width: 739px) {
+	.filtro {
+		display: none;
+	}
+}
+
 
 /*PRODUTOS*/
 
@@ -189,6 +213,8 @@ body {
 	font-size: 0.875em;
 	font-weight: normal;	
 }
+
+
 
 .footer {
 	background: #e7d4e8;
